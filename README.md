@@ -28,7 +28,7 @@ lilbee is built on open source: [xberg](https://github.com/xberg-io/xberg) reads
 
 Most of my upstream work is in the xberg ecosystem, [40+ PRs](https://github.com/search?q=org%3Axberg-io+author%3Atobocop2+is%3Apr+is%3Amerged&type=pullrequests) across the organization at this point.
 
-In lilbee's earliest incarnation I accidentally reinvented a subset of it. I reached out to [Goldziher](https://github.com/Goldziher) to thank him for tree-sitter-language-pack, he pointed me at the real thing, and within a few weeks I was contributing my discoveries upstream. I've been a member of the xberg open source team ever since.
+In early iterations of lilbee I built my own extraction layer. When I discovered xberg I wound up gutting all of that work, and some of those efforts became my earliest contributions to xberg. I've been a member of the open source team ever since.
 
 Stuff I've contributed that I'm pretty proud of:
 
