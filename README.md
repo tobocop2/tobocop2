@@ -57,9 +57,7 @@ Stuff I've contributed that I'm pretty proud of:
 | [huggingface_hub](https://github.com/huggingface/huggingface_hub) / [xet-core](https://github.com/huggingface/xet-core) <br>![merged](https://img.shields.io/badge/-merged-9ccfd8?style=flat-square&labelColor=191724) | ![★](https://img.shields.io/github/stars/huggingface/huggingface_hub?style=flat-square&label=%E2%98%85&labelColor=191724&color=ebbcba) ![★](https://img.shields.io/github/stars/huggingface/xet-core?style=flat-square&label=%E2%98%85&labelColor=191724&color=ebbcba) | [Fixed](https://github.com/huggingface/huggingface_hub/pull/4065) an `hf_hub_download` crash when stderr has no real file descriptor. Smoother progress for xet downloads is in review ([hub](https://github.com/huggingface/huggingface_hub/pull/4059), [xet-core](https://github.com/huggingface/xet-core/pull/791)). |
 | [pdf_oxide](https://github.com/yfedoseev/pdf_oxide) <br>![merged](https://img.shields.io/badge/-merged-9ccfd8?style=flat-square&labelColor=191724) | ![★](https://img.shields.io/github/stars/yfedoseev/pdf_oxide?style=flat-square&label=%E2%98%85&labelColor=191724&color=ea9a97) | [3 merged PRs](https://github.com/yfedoseev/pdf_oxide/pulls?q=is%3Apr+author%3Atobocop2+is%3Amerged) fixing text extraction in scientific PDFs: subscript digits coming out as decimals, fractions fusing with the equals sign, fragmented words, and rotated pages extracting out of order. |
 
-## Older stuff
-
-Fixes I've landed over the years in things I'm not working with day to day anymore:
+## Old stuff
 
 | Project | Stars | What I did |
 |---------|-------|------------|
