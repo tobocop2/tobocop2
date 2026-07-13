@@ -1,6 +1,6 @@
 # Hi, I'm Tobias
 
-I'm building [lilbee](https://github.com/tobocop2/lilbee), a local search engine you can talk to. It's the whole local-AI stack in a single executable: it runs the models, indexes your files, notes, and code, crawls web pages into your library, and every answer cites the exact file and line. It started as me trying to build an Encarta 99 out of my own stuff that I could talk to privately, and that's still the mission.
+I'm building [lilbee](https://github.com/tobocop2/lilbee), the whole local AI stack in a single executable: it runs and manages the models, and it's a search engine you can talk to. It indexes your files, notes, and code, crawls web pages into your library, and every answer cites the exact file and line. It started as me trying to build an Encarta 99 out of my own stuff that I could talk to privately, and that's still the mission.
 
 ## Why lilbee
 
