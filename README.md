@@ -6,7 +6,7 @@ Onboarding with local AI is painful. A typical stack is a model server, a vector
 
 ## What I'm building
 
-- **[lilbee](https://github.com/tobocop2/lilbee)** ![Stars](https://img.shields.io/github/stars/tobocop2/lilbee?style=flat-square): terminal-first, because I built it for myself and I knew that if the architecture stayed flexible, friendlier surfaces would come easily. TUI, CLI, REST API, MCP server, and Python library, with a built-in model manager, multi-GPU placement, and integrations for opencode and hermes so programmers can put local AI behind their favorite agents. Works with or without Ollama and LM Studio.
+- **[lilbee](https://github.com/tobocop2/lilbee)** ![Stars](https://img.shields.io/github/stars/tobocop2/lilbee?style=flat-square): terminal-first, because I built it for myself and I knew that if the architecture stayed flexible, friendlier surfaces would come easily. TUI, CLI, REST API, MCP server, and Python library, with multi-GPU placement and integrations for opencode and hermes so programmers can put local AI behind their favorite agents. lilbee is its own model manager: you don't need Ollama or LM Studio at all, and the model families it runs are [tested end to end on real GPUs](https://github.com/tobocop2/lilbee/blob/main/docs/tested-models.md), the architectures behind most of the 190,000+ GGUF models on Hugging Face. Already running Ollama or LM Studio? lilbee connects to them and keeps your models.
 
   ![ask lilbee "what is lilbee in one sentence?" in the terminal and get a cited answer](https://raw.githubusercontent.com/tobocop2/lilbee/gh-pages/demos/what_is_lilbee.gif)
 
