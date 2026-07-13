@@ -12,13 +12,13 @@ I'm trying to democratize local AI, starting with talking to your own stuff, whi
 
 ## What I'm building
 
-### [lilbee](https://github.com/tobocop2/lilbee) ![Stars](https://img.shields.io/github/stars/tobocop2/lilbee?style=flat-square)
+### [lilbee](https://github.com/tobocop2/lilbee) ![Stars](https://img.shields.io/github/stars/tobocop2/lilbee?style=flat-square) ![Downloads](https://img.shields.io/github/downloads/tobocop2/lilbee/total?style=flat-square&label=downloads)
 
 Terminal-first, because I built it for myself and I knew that if the architecture stayed flexible, friendlier surfaces would come easily. TUI, CLI, REST API, MCP server, and Python library, with multi-GPU placement and integrations for opencode and hermes so programmers can put local AI behind their favorite agents. lilbee is its own model manager: you don't need Ollama or LM Studio at all, and the model families it runs are [tested end to end on real GPUs](https://github.com/tobocop2/lilbee/blob/main/docs/tested-models.md), the architectures behind most of the 190,000+ GGUF models on Hugging Face. Already running Ollama or LM Studio? lilbee connects to them and keeps your models.
 
 ![lilbee indexing its own source and answering with citations, with a model split across multiple GPUs](https://raw.githubusercontent.com/tobocop2/lilbee/gh-pages/demos/tui-multi-gpu-self-index.gif)
 
-### [obsidian-lilbee](https://github.com/tobocop2/obsidian-lilbee) ![Stars](https://img.shields.io/github/stars/tobocop2/obsidian-lilbee?style=flat-square)
+### [obsidian-lilbee](https://github.com/tobocop2/obsidian-lilbee) ![Stars](https://img.shields.io/github/stars/tobocop2/obsidian-lilbee?style=flat-square) ![Downloads](https://img.shields.io/github/downloads/tobocop2/obsidian-lilbee/total?style=flat-square&label=downloads)
 
 One of those friendlier surfaces, the gateway for Q&A with local models. My favorite story here is a completely non-technical user who went from the plugin store to talking to his solar panel docs in minutes, without ever opening a terminal.
 
