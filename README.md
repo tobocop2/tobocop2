@@ -52,6 +52,7 @@ Fixes I've landed over the years in things I'm not working with day to day anymo
 | [screenshot-glb](https://github.com/Shopify/screenshot-glb) | ![Stars](https://img.shields.io/github/stars/Shopify/screenshot-glb?style=flat-square) | [Added](https://github.com/Shopify/screenshot-glb/pulls?q=is%3Apr+author%3Atobocop2) an optional timeout parameter to Shopify's GLB screenshot tool. |
 | [MetalAPI](https://github.com/tobocop2/MetalAPI) | ![Stars](https://img.shields.io/github/stars/tobocop2/MetalAPI?style=flat-square) | My first project ever, from my last semester of college. Scraped the Metal Archives, the encyclopedic resource for heavy metal, and served the whole thing as a REST API. |
 | [go-utils](https://github.com/Goldziher/go-utils) | ![Stars](https://img.shields.io/github/stars/Goldziher/go-utils?style=flat-square) | [Added](https://github.com/Goldziher/go-utils/pulls?q=is%3Apr+author%3Atobocop2) `unique` and fixed `reverse`, four years before Goldziher and I would end up on xberg together. |
+| [simpler-cpp-json](https://github.com/tobocop2/simpler-cpp-json) | ![Stars](https://img.shields.io/github/stars/tobocop2/simpler-cpp-json?style=flat-square) | Generic `to_json`/`from_json` for arbitrary C++ structs and STL containers, built on nlohmann/json and Boost.Fusion. It saved my team at work a lot of time and keystrokes, and nlohmann/json later shipped the same idea as `NLOHMANN_DEFINE_TYPE_INTRUSIVE`. |
 
 ## Elsewhere
 
