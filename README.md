@@ -2,16 +2,17 @@
 
 I'm building [lilbee](https://github.com/tobocop2/lilbee), a local search engine you can talk to. It's the whole local-AI stack in a single executable: it runs the models, indexes your files, notes, and code, crawls web pages into your library, and every answer cites the exact file and line. It started as me trying to build an Encarta 99 out of my own stuff that I could talk to privately, and that's still the mission.
 
-![ask lilbee "what is lilbee in one sentence?" in the terminal and get a cited answer](https://raw.githubusercontent.com/tobocop2/lilbee/gh-pages/demos/what_is_lilbee.gif)
-
-![the same question answered inside Obsidian](https://raw.githubusercontent.com/tobocop2/obsidian-lilbee/gh-pages/demos/what_is_lilbee.gif)
-
 Onboarding with local AI is painful. A typical stack is a model server, a vector database, a document ingestion pipeline, a web UI, and a Docker Compose file holding it all together, and every piece needs configuring before you can ask a single question. lilbee is that whole stack in one self-contained executable: model manager, search engine over your own data, MCP for agents, HTTP for GUIs, and a TUI for the terminal. No containers, no networking, nothing else to install, and it scales from one laptop to as many GPUs as you have. I'm trying to democratize local AI, starting with talking to your own stuff, while building the tool I want for myself.
 
 ## What I'm building
 
 - **[lilbee](https://github.com/tobocop2/lilbee)** ![Stars](https://img.shields.io/github/stars/tobocop2/lilbee?style=flat-square): terminal-first, because I built it for myself and I knew that if the architecture stayed flexible, friendlier surfaces would come easily. TUI, CLI, REST API, MCP server, and Python library, with a built-in model manager, multi-GPU placement, and integrations for opencode and hermes so programmers can put local AI behind their favorite agents. Works with or without Ollama and LM Studio.
+
+  ![ask lilbee "what is lilbee in one sentence?" in the terminal and get a cited answer](https://raw.githubusercontent.com/tobocop2/lilbee/gh-pages/demos/what_is_lilbee.gif)
+
 - **[obsidian-lilbee](https://github.com/tobocop2/obsidian-lilbee)** ![Stars](https://img.shields.io/github/stars/tobocop2/obsidian-lilbee?style=flat-square): one of those friendlier surfaces, the gateway for Q&A with local models. My favorite story here is a completely non-technical user who went from the plugin store to talking to his solar panel docs in minutes, without ever opening a terminal.
+
+  ![the same question answered inside Obsidian](https://raw.githubusercontent.com/tobocop2/obsidian-lilbee/gh-pages/demos/what_is_lilbee.gif)
 
 ## Upstream work
 
