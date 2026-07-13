@@ -2,7 +2,13 @@
 
 I'm building [lilbee](https://github.com/tobocop2/lilbee), a local search engine you can talk to. It's the whole local-AI stack in a single executable: it runs the models, indexes your files, notes, and code, crawls web pages into your library, and every answer cites the exact file and line. It started as me trying to build an Encarta 99 out of my own stuff that I could talk to privately, and that's still the mission.
 
-Onboarding with local AI is painful. A typical stack is a model server, a vector database, a document ingestion pipeline, a web UI, and a Docker Compose file holding it all together, and every piece needs configuring before you can ask a single question. lilbee is that whole stack in one self-contained executable: model manager, search engine over your own data, MCP for agents, HTTP for GUIs, and a TUI for the terminal. No containers, no networking, nothing else to install, and it scales from one laptop to as many GPUs as you have. I'm trying to democratize local AI, starting with talking to your own stuff, while building the tool I want for myself.
+## Why lilbee
+
+Onboarding with local AI is painful. A typical stack is a model server, a vector database, a document ingestion pipeline, a web UI, and a Docker Compose file holding it all together. Every piece needs configuring before you can ask a single question.
+
+lilbee is that whole stack in one self-contained executable: model manager, search engine over your own data, MCP for agents, HTTP for GUIs, and a TUI for the terminal. No containers, no networking, nothing else to install. It scales from one laptop to as many GPUs as you have.
+
+I'm trying to democratize local AI, starting with talking to your own stuff, while building the tool I want for myself.
 
 ## What I'm building
 
@@ -16,7 +22,13 @@ Onboarding with local AI is painful. A typical stack is a model server, a vector
 
 ## Upstream work
 
-lilbee sits on top of a deep stack: document extraction, model serving, vector storage, language bindings, download plumbing. When I hit an edge in one of those layers I fix it upstream instead of working around it, so a lot of my open source work lives in other people's repos. Most of it is in the [xberg](https://github.com/xberg-io/xberg) ecosystem, where at this point I've made [40+ PRs](https://github.com/search?q=org%3Axberg-io+author%3Atobocop2+is%3Apr+is%3Amerged&type=pullrequests) across the organization. In lilbee's earliest incarnation I accidentally reinvented a subset of it, reached out to [Goldziher](https://github.com/Goldziher) to thank him for tree-sitter-language-pack, got pointed at the real thing, and within a few weeks I was contributing my discoveries upstream. I've been a member of the xberg open source team ever since.
+lilbee is built on open source: [xberg](https://github.com/xberg-io/xberg) reads the documents, llama.cpp runs the models, LanceDB stores the vectors, and huggingface_hub downloads them. When I hit a bug or a missing piece in one of those projects I fix it there instead of working around it, so a lot of my open source work lives in other people's repos.
+
+### The xberg team
+
+Most of my upstream work is in the xberg ecosystem, [40+ PRs](https://github.com/search?q=org%3Axberg-io+author%3Atobocop2+is%3Apr+is%3Amerged&type=pullrequests) across the organization at this point.
+
+In lilbee's earliest incarnation I accidentally reinvented a subset of it. I reached out to [Goldziher](https://github.com/Goldziher) to thank him for tree-sitter-language-pack, he pointed me at the real thing, and within a few weeks I was contributing my discoveries upstream. I've been a member of the xberg open source team ever since.
 
 Stuff I've contributed that I'm pretty proud of:
 
