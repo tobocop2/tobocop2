@@ -1,15 +1,15 @@
-<p align="center">
+<div align="center">
 <pre>
-888             888      d8b
-888             888      Y8P
-888             888
-888888  .d88b.  88888b.  888  8888b.  .d8888b
-888    d88""88b 888 "88b 888     "88b 88K
+888             888      d8b                  
+888             888      Y8P                  
+888             888                           
+888888  .d88b.  88888b.  888  8888b.  .d8888b 
+888    d88""88b 888 "88b 888     "88b 88K     
 888    888  888 888  888 888 .d888888 "Y8888b.
 Y88b.  Y88..88P 888 d88P 888 888  888      X88
  "Y888  "Y88P"  88888P"  888 "Y888888  88888P'
 </pre>
-</p>
+</div>
 
 <p align="center">
 <img alt="model manager" src="https://img.shields.io/badge/model_manager-c4a7e7?style=flat-square&labelColor=191724"> <img alt="search engine" src="https://img.shields.io/badge/search_engine-9ccfd8?style=flat-square&labelColor=191724"> <img alt="web crawler" src="https://img.shields.io/badge/web_crawler-f6c177?style=flat-square&labelColor=191724"> <img alt="MCP server" src="https://img.shields.io/badge/MCP_server-ebbcba?style=flat-square&labelColor=191724"> <img alt="obsidian plugin" src="https://img.shields.io/badge/obsidian_plugin-908caa?style=flat-square&labelColor=191724">
@@ -75,11 +75,11 @@ Fixes I've landed over the years in things I'm not working with day to day anymo
 
 [![lilbee: the whole local AI stack in one executable, with a cited answer shown in the terminal UI](https://lilbee.sh/social-card.png)](https://lilbee.sh)
 
-<p align="center">
+<div align="center">
 <pre>
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 |t|o|b|i|a|s|@|l|i|l|b|e|e|.|s|h|
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 </pre>
 <a href="https://lilbee.sh">lilbee.sh</a> &nbsp;&#183;&nbsp; <a href="https://web.libera.chat/#lilbee">#lilbee on Libera.Chat</a>
-</p>
+</div>
