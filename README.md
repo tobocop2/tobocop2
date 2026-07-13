@@ -42,5 +42,6 @@ Fixes I've landed over the years in things I'm not working with day to day anymo
 
 ## Elsewhere
 
-- Site: [lilbee.sh](https://lilbee.sh)
-- [![#lilbee on Libera.Chat](https://img.shields.io/badge/IRC-%23lilbee%20on%20Libera.Chat-5865F2?logo=liberadotchat&logoColor=white)](https://web.libera.chat/#lilbee)
+[![lilbee: local AI search over your files, code, and the web, with a cited answer shown in the terminal UI](https://lilbee.sh/social-card.png)](https://lilbee.sh)
+
+[![#lilbee on Libera.Chat](https://img.shields.io/badge/IRC-%23lilbee%20on%20Libera.Chat-5865F2?logo=liberadotchat&logoColor=white)](https://web.libera.chat/#lilbee)
