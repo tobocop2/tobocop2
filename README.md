@@ -1,15 +1,9 @@
-<div align="center">
-<pre>
-888             888      d8b                  
-888             888      Y8P                  
-888             888                           
-888888  .d88b.  88888b.  888  8888b.  .d8888b 
-888    d88""88b 888 "88b 888     "88b 88K     
-888    888  888 888  888 888 .d888888 "Y8888b.
-Y88b.  Y88..88P 888 d88P 888 888  888      X88
- "Y888  "Y88P"  88888P"  888 "Y888888  88888P'
-</pre>
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobocop2/tobocop2/main/tobias-wordmark-dark.svg">
+    <img alt="tobias" src="https://raw.githubusercontent.com/tobocop2/tobocop2/main/tobias-wordmark-light.svg" width="400">
+  </picture>
+</p>
 
 <p align="center">
 <a href="https://lilbee.sh/model-manager/"><img alt="model manager" src="https://img.shields.io/badge/model_manager-c4a7e7?style=flat-square&labelColor=191724"></a> <a href="https://lilbee.sh/local-rag/"><img alt="search engine" src="https://img.shields.io/badge/search_engine-9ccfd8?style=flat-square&labelColor=191724"></a> <a href="https://lilbee.sh/code-search/"><img alt="code search" src="https://img.shields.io/badge/code_search-ebbcba?style=flat-square&labelColor=191724"></a> <a href="https://lilbee.sh/gpu/"><img alt="multi GPU" src="https://img.shields.io/badge/multi_GPU-f6c177?style=flat-square&labelColor=191724"></a> <a href="https://lilbee.sh/mcp/"><img alt="MCP server" src="https://img.shields.io/badge/MCP_server-ea9a97?style=flat-square&labelColor=191724"></a> <a href="https://obsidian.lilbee.sh/"><img alt="obsidian plugin" src="https://img.shields.io/badge/obsidian_plugin-908caa?style=flat-square&labelColor=191724"></a>
