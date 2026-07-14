@@ -5,10 +5,6 @@
   </picture>
 </p>
 
-<p align="center">
-<a href="https://lilbee.sh/model-manager/"><img alt="model manager" src="https://img.shields.io/badge/model_manager-c4a7e7?style=flat-square&labelColor=191724"></a> <a href="https://lilbee.sh/local-rag/"><img alt="search engine" src="https://img.shields.io/badge/search_engine-9ccfd8?style=flat-square&labelColor=191724"></a> <a href="https://lilbee.sh/code-search/"><img alt="code search" src="https://img.shields.io/badge/code_search-ebbcba?style=flat-square&labelColor=191724"></a> <a href="https://lilbee.sh/gpu/"><img alt="multi GPU" src="https://img.shields.io/badge/multi_GPU-f6c177?style=flat-square&labelColor=191724"></a> <a href="https://lilbee.sh/mcp/"><img alt="MCP server" src="https://img.shields.io/badge/MCP_server-ea9a97?style=flat-square&labelColor=191724"></a> <a href="https://obsidian.lilbee.sh/"><img alt="obsidian plugin" src="https://img.shields.io/badge/obsidian_plugin-908caa?style=flat-square&labelColor=191724"></a>
-</p>
-
 I'm building [lilbee](https://github.com/tobocop2/lilbee), the whole local AI stack in a single executable: it runs and manages the models, and it's a search engine you can talk to. It indexes your files, notes, and code, crawls web pages into your library, and every answer cites the exact file and line. It started as me trying to build an Encarta 99 out of my own stuff that I could talk to privately, and that's still the mission.
 
 ## Why lilbee
@@ -16,6 +12,10 @@ I'm building [lilbee](https://github.com/tobocop2/lilbee), the whole local AI st
 Onboarding with local AI is painful. A typical stack is a model server, a vector database, a document ingestion pipeline, a web UI, and a Docker Compose file holding it all together. Every piece needs configuring before you can ask a single question.
 
 lilbee is that whole stack in one self-contained executable: model manager, search engine over your own data, MCP for agents, HTTP for GUIs, and a TUI for the terminal. No containers, no networking, nothing else to install. It scales from one laptop to as many GPUs as you have.
+
+<p align="center">
+<a href="https://lilbee.sh/model-manager/"><img alt="model manager" src="https://img.shields.io/badge/model_manager-c4a7e7?style=flat-square&labelColor=191724"></a> <a href="https://lilbee.sh/local-rag/"><img alt="search engine" src="https://img.shields.io/badge/search_engine-9ccfd8?style=flat-square&labelColor=191724"></a> <a href="https://lilbee.sh/code-search/"><img alt="code search" src="https://img.shields.io/badge/code_search-ebbcba?style=flat-square&labelColor=191724"></a> <a href="https://lilbee.sh/gpu/"><img alt="multi GPU" src="https://img.shields.io/badge/multi_GPU-f6c177?style=flat-square&labelColor=191724"></a> <a href="https://lilbee.sh/mcp/"><img alt="MCP server" src="https://img.shields.io/badge/MCP_server-ea9a97?style=flat-square&labelColor=191724"></a> <a href="https://obsidian.lilbee.sh/"><img alt="obsidian plugin" src="https://img.shields.io/badge/obsidian_plugin-908caa?style=flat-square&labelColor=191724"></a>
+</p>
 
 I'm trying to democratize local AI, starting with talking to your own stuff, while building the tool I want for myself.
 
