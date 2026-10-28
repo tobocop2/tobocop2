@@ -33,7 +33,7 @@ One of those friendlier surfaces, the gateway for Q&A with local models. My favo
 
 ![the same question answered inside Obsidian](https://raw.githubusercontent.com/tobocop2/obsidian-lilbee/gh-pages/demos/what_is_lilbee.gif)
 
-## xberg
+## [xberg](https://xberg.io)
 
 Extraction is the core of lilbee. You can't search what you can't read, and an answer is only as good as the text that came out of the document, so a scanned PDF that turns to mush or a table that loses its columns is a bad answer waiting to happen. Good extraction is what makes good search possible.
 
